@@ -82,12 +82,3 @@ Weather-forecasting-Australia/
 - The model predicts `RainTomorrow` as `Yes` or `No`
 
 ---
-
-### 👩‍💻 Author
-
-**Elena** — Applied Mathematics student at NTU 'KhPI'  
-Specializing in **Intelligent Data Analysis**, machine learning, and user-centered Streamlit interfaces.
-
----
-
-Would you like me to add badges (e.g. Python version, Streamlit deployed), a license section, or a short GIF preview of the app?
