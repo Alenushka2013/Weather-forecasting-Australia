@@ -107,11 +107,11 @@ with col2:
 # -----------------------------
 # Прогноз
 # -----------------------------
-if st.button("Прогнозувати дощ завтра"):
-    input_df = pd.DataFrame([input_data])
+# if st.button("Прогнозувати дощ завтра"):
+#     input_df = pd.DataFrame([input_data])
     
-    prediction = model.predict(input_df)[0]
-    proba = model.predict_proba(input_df)[0][1]
+#     prediction = model.predict(input_df)[0]
+#     proba = model.predict_proba(input_df)[0][1]
     
-    st.success(f"Прогноз: {'Буде дощ' if prediction == 'Yes' else 'Дощу не буде'}")
-    st.info(f"Ймовірність дощу завтра: {round(proba * 100, 1)}%")
+#     st.success(f"Прогноз: {'Буде дощ' if prediction == 'Yes' else 'Дощу не буде'}")
+#     st.info(f"Ймовірність дощу завтра: {round(proba * 100, 1)}%")
