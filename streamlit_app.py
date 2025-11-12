@@ -7,22 +7,22 @@ import os
 # Заголовок з картинкою
 # -----------------------------
 
-st.markdown(
-    "<h1 style='text-align: center; color: steelblue;'>🌦️ Прогнозування дощу в Австралії</h1>",
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     "<h1 style='text-align: center; color: steelblue;'>🌦️ Прогнозування дощу в Австралії</h1>",
+#     unsafe_allow_html=True
+# )
 
-# Центруємо картинку
-col1, col2, col3 = st.columns([1, 4, 1])  # центральна колонка ширша
-with col2:
-    st.image("image/rain.jpg") #, use_container_width=True)
+# # Центруємо картинку
+# col1, col2, col3 = st.columns([1, 4, 1])  # центральна колонка ширша
+# with col2:
+#     st.image("image/rain.jpg") #, use_container_width=True)
   
-st.markdown(
-    "<p style='text-align: center; font-size:18px;'>Модель прогнозує ймовірність дощу завтра на основі введених погодних параметрів.</p>",
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     "<p style='text-align: center; font-size:18px;'>Модель прогнозує ймовірність дощу завтра на основі введених погодних параметрів.</p>",
+#     unsafe_allow_html=True
+# )
 
-st.divider()
+# st.divider()
 
 # -----------------------------
 # Завантаження моделі та defaults
