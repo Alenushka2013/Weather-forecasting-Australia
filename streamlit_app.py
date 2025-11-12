@@ -27,13 +27,18 @@ st.divider()
 # -----------------------------
 # Завантаження моделі та defaults
 # -----------------------------
+
+BASE_DIR = os.path.dirname(__file__) 
+
 @st.cache_resource
 def load_model():
-    return joblib.load("model/rf_weather.pkl")
+    model_path = os.path.join(BASE_DIR, "model", "rf_weather.pkl")
+    return joblib.load(model_path)
 
 @st.cache_resource
 def load_defaults():
-    return joblib.load("data/defaults_streamlit.pkl")
+    defaults_path = os.path.join(BASE_DIR, "data", "defaults_streamlit.pkl")
+    return joblib.load(defaults_path)
 
 model = load_model()
 defaults = load_defaults()
