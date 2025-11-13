@@ -36,15 +36,17 @@ An interactive machine learning app that predicts the likelihood of rain tomorro
 
 ```
 Weather-forecasting-Australia/
-├── model_training.py         # Model training script
-├── streamlit_app.py          # Streamlit interface
-├── model/
-│   └── rf_weather.pkl        # Saved model
+├── data/
+│   └── default-streamlit.pkl # Stored feature values used in the Streamlit interface
 ├── image/
 │   └── rain.jpg              # UI illustration
-├── weatherAUS.csv            # Input dataset
-├── requirements.txt          # Dependencies
+├── model/
+│   └── rf_weather.pkl        # Saved model
+├── Model Random Forest.ipynb # Model training script
 ├── README.md                 # Project description
+├── metrics_utils.py          # Utility functions for computing metrics and generating evaluation reports
+├── requirements.txt          # Dependencies
+└── streamlit_app.py          # Streamlit interface
 ```
 
 ---
